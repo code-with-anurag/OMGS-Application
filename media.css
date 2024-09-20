@@ -1,0 +1,226 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+/* +++++++++++++++++++++++ Responsive at 1200px +++++++++++++++++ */
+
+@media(max-width:1200px){
+    .container{
+        height:auto;
+        width:100%;
+    }
+    .navbar{
+        height:auto;
+        width:100%;
+    }
+    .omgs-logo{
+        width:19%;
+    }
+    .section1{
+        height:auto;
+        width:100%;
+    }
+    .left-part{
+        height:auto;
+        width:50%;
+        padding-block:10px;
+    }
+    .left-part video{
+        width:85%;
+    }
+    .right-part{
+        width:100%;
+     
+    }
+    .right-part button{
+        width:30%;
+    }
+    .footerbox{
+        width:30%;
+    }
+    .companynames{
+        width:90%;
+    }
+    
+
+ }
+/* +++++++++++++++ Responsive at 991px ++++++++++++++++++++ */
+
+@media(max-width:991px){
+    .container{
+        width:100%;
+        height:auto;
+    }
+    .header{
+       height:auto;
+       width:100% ;
+       display:flex;
+       justify-content: center;
+       align-items: center;
+    }
+    #head-li-1{
+        display:none;
+    }
+    #head-li-3{
+        display:none;
+    }
+    .navbar{
+        height:auto;
+        width:auto;
+    }
+    .omgs-logo{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+    }
+    .omgs-logo img{
+        height:65%;
+        width:75%;
+    }
+    .left-part{
+        height:auto;
+        width:50%;
+        padding-block:20px;
+    }
+     .left-part video{
+        width:95%;
+    }
+    .footer-div{
+        display:flex;
+        flex-direction:column;
+        justify-content: start;
+        align-items:start;
+    }
+    .footerbox{
+        width:35%;
+        height:350px;
+        margin-top:20px;
+    }
+    .companynames{
+        width:95%;
+        height:90px;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .div1 p{
+        text-align: center;
+    }
+    .div2{
+        display:flex;
+        justify-content: center;
+    }
+    .div2 img{
+      height:90%;
+      width:12%;
+    }
+
+    /* -------------navbar end------------ */
+}
+
+/* +++++++++++++++ Responsive at 768px ++++++++++++++++++++++ */
+
+@media(max-width:768px){
+    .navbar{
+        height:auto;
+        width:100%;
+    }
+    .bar-symbol{
+        width:30%;
+    }
+    .cart{
+        width:30%;
+    }
+    .omgs-logo{
+        width:30%;
+        height:100%;
+    }
+    .omgs-logo img{
+       display:flex;
+       padding-left:20px;
+       height:85%;
+       width:75%;
+    }
+     #user{
+        display:inline;
+        height:30px;
+        width:30px;
+        border-radius: 5px;
+        border:1px solid black;
+        text-align: center;
+        padding-top:5px;
+    }
+    #cart{
+        display:none;
+    }
+    #login-btn{
+        display:none;
+    }
+    .section-1{
+        padding-bottom:25px;
+    }
+    .left-part video{
+        width:100%;
+    }
+    .right-part{
+        padding-block:40px;
+      
+    }
+    .left-part{
+        height:auto;
+        width:50%;
+        display:flex;
+        justify-content: center;
+    }
+    .left-part video{
+        width:90%;
+        height:100%; 
+    }
+}
+
+/* +++++++++++++++++++++ Responsive at 668px +++++++++++++++++++ */
+   @media (max-width:668px){
+      .section-1{
+        height:auto;
+        width:100%;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        flex-direction:column;
+        padding-inline:10px;
+      }
+      .left-part{
+        height:auto;
+        width:100%;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .left-part video{
+        width:95%;
+        height:50%;
+      }
+      .right-part-div{
+        height:auto;
+        width:100%;
+      }
+   }
+
+/* +++++++++++++++++++++ Responsive at 480px +++++++++++++++++ */
+
+  @media(max-width:480px){
+      .omgs-logo{
+         height:100%;
+         width:40%;
+      }
+     .omgs-logo-img{
+        height:100%;
+        width:100%;
+     }
+  }
+
+  
+  
